@@ -20,8 +20,7 @@ DBeaver
 Tableau
 
 DATASET 
-[View the dataset]
-(_Office_sales__202610072006.csv)
+[View the dataset](_Office_sales__202610072006.csv)
 
 
 QUERY
