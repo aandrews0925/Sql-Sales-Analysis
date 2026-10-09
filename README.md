@@ -76,6 +76,13 @@ select "Region","Salesperson","TotalSales", "Ranking"
 from "Ranked_sales"  
 where "Ranking" <=3  
 
+[Query](<Salesperson Ranking by Region.sql>)
+
+-Uses ROW_NUMBER() and PARTITON BY to rank sales by region and give them a ranking by total sales for each region.
+  
+RESULTS
+
+![Ranking Results](<Ranking Results.png>)
 
 
 
