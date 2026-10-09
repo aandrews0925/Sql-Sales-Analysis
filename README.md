@@ -18,3 +18,21 @@ TOOLS
 PostgreSQL 
 DBeaver
 Tableau
+
+DATASET 
+(_Office_sales__202610072006.csv)
+
+
+QUERY
+
+select os."Region", sum(os."TotalPrice") as "Total_Price"
+from "Office_sales" os 
+group by os."Region"
+order by "Total_Price" desc;
+
+- Compared regional sales and sorted them in descending order
+
+RESULT
+
+
+
