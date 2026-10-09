@@ -78,11 +78,17 @@ where "Ranking" <=3
 
 [Query](<Salesperson Ranking by Region.sql>)
 
--Uses ROW_NUMBER() and PARTITON BY to rank sales by region and give them a ranking by total sales for each region.
+-Uses ROW_NUMBER() and PARTITON BY to rank sales by region and give them a ranking by total sales for each region. This Shows that Central, South, and West are all comparable to their top salespeople.
   
 RESULTS
 
 ![Ranking Results](<Ranking Results.png>)
 
+TABLEAU 
 
+![Tableau Results](<Tableau Results.png>)
+
+SUMMARY
+  
+  Since the salespeople all seem to be performing fine within the top 3 and the salesize seems to be struggling, diving deeper into tableau was a must. Upon further investigation, Q2 was severely underperforming in the South region even comparing it to other regions and prior years and quarters. This was due to the massive lack of order volume coming in on the second quarter. To be certain that the sample data wasn't pulled in the middle of the quarter, I compared to the other regions which were matching previous years or exceeding sales and order volumes. Looking at item sales and unit price, there isn't any results that suggest reduced orders due to price increases or a specific item not being ordered. Overall, I would suggest that there is an external market factor impacting the overall sales in the South specifically.
 
