@@ -36,6 +36,6 @@ order by "Total_Price" desc;
 - Compared regional sales and sorted in descending order
 
 RESULT
-![Sales By Region Result](<Sales By Region.png>)
+![Sales By Region Result](<Region Sales Results.png>)
 
 
