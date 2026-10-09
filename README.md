@@ -33,9 +33,9 @@ order by "Total_Price" desc;
 
 [Query](<Sales By Region.sql>) 
 
-- Compared regional sales and sorted them in descending order
+- Compared regional sales and sorted in descending order
 
 RESULT
-
+![Sales By Region Result](<Sales By Region.png>)
 
 
