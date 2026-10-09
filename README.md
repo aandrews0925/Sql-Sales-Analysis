@@ -33,10 +33,31 @@ order by "Total_Price" desc;
 
 [Query](<Sales By Region.sql>) 
 
-- Compared regional sales and sorted in descending order
+- Compared regional sales and sorted in descending order which shows South being at the bottom in sales dollars.
 
 RESULT 
 
 ![Sales By Region Result](<Region Sales Results.png>)
+
+QUERY  
+
+select   
+case   
+	when os."TotalPrice" < 1999.99 then 'small'  
+	when os."TotalPrice" between 2000 and 5000 then 'medium'  
+	else  'large'  
+end as "Salesize",   
+Count (*) as "num_of_sales", os."Region"  
+from "Office_sales" os  
+group by "Salesize", os."Region"  
+order by "Salesize";  
+
+  [Query](<Salesize by Region.sql>)
+
+  -Uses CASE statement to categorize sale sizes and the amount of them per region. In this dataset, it shows that the Southern region falls short on the number of large sales which could explain the lack in sales dollars.
+
+  RESULTS
+
+  ![Salesize by Region Result](<Region Salesize Results.png>)
 
 
