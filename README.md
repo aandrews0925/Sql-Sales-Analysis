@@ -20,14 +20,11 @@ OBJECTIVE
  
 Identify potential shortcomings of regions and top salespeople within each region based on sales totals as well as sale sizes to determine where and why certain regions are underperforming.
  
-TOOLS 
- 
-PostgreSQL 
- 
-DBeaver
- 
-Tableau
- 
+TOOLS  
+PostgreSQL  
+DBeaver 
+Tableau 
+
 DATASET  
  
 [View the dataset](_Office_sales__202610072006.csv)
