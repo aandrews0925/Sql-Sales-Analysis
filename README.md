@@ -22,7 +22,7 @@ Identify potential shortcomings of regions and top salespeople within each regio
  
 TOOLS  
 PostgreSQL  
-DBeaver 
+DBeaver  
 Tableau 
 
 DATASET  
