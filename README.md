@@ -31,6 +31,8 @@ from "Office_sales" os
 group by os."Region"
 order by "Total_Price" desc;
 
+[Query](Sales by Region.sql)
+
 - Compared regional sales and sorted them in descending order
 
 RESULT
